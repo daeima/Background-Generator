@@ -10,7 +10,7 @@ const btnCopy = document.querySelector(".btn-copy")
 const gradient = (event) => {
   body.style.background = `linear-gradient(to right top, ${color1.value}, ${color2.value}, ${color3.value}   )`;
   btnCopy.style.background = `linear-gradient(to right top, ${color1.value}, ${color2.value}, ${color3.value} )`;
-  css.textContent = `${body.style.background};`
+  css.textContent = `background: ${body.style.background};`
 };
 
 const copy = () => {

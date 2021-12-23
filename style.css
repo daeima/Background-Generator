@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h3 {
@@ -29,7 +29,7 @@ h3 {
 }
 
 .colors {
-  width: 350px;
+  width: 450px;
   height: 120px;
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@ h3 {
   font-size: 1rem;
   font-weight: 700;
   color: #312f37;
-  background: linear-gradient(to right top, #DEB841, #E75A7C);
+  background: linear-gradient(to right top, #DEB841, #E75A7C, #5F81FB);
   transition: all 1s;
 }
 
