@@ -7,8 +7,8 @@
 
 body {
   margin-top: 5%;
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
+  min-width: 100%;
   font-family: 'Readex Pro', sans-serif;
   color: #312f37;
   text-align: center;
@@ -72,4 +72,8 @@ h3 {
 .btn-copy:hover {
   color: bisque;
   border-radius: 25% 10%;
+}
+
+footer {
+  margin-top: 45vh;
 }
